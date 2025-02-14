@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: blanchedalmond;
+            border-radius: 7px;
+            height: 200px;
+            width: 200px;
+            float: left;
+            margin-left: 40px;
+            transition: 4s;
+        }
+        .box4{
+            background-color: blanchedalmond;
+            border-radius: 7px;
+            height: 200px;
+            width: 200px;
+            float: left;
+            margin-left: 40px;
+            transition: 4s;
+        }
+        .box1:hover{
+            transform: translate(150px,150px);
+        }
+        .box2:hover{
+            transform: translateX(150px);
+        }
+        .box3:hover{
+            transform: translateY(150px);
+        }
+        .box4:hover{
+            transform: rotate(300deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">Translate X & Y</div>
+    <div class="box box2">Translate X</div>
+    <div class="box box3">Translate Y</div>
+    <div class="box box4">Rotate</div>
+    
+</body>
+</html>
